@@ -17,9 +17,9 @@ class Getters {
         return this.name;
     }
 }
-let myName = new Getters('John');
+let myName = new Getters('Joe');
 ```
 
 ```js
-myName._name; // 'John'
+myName._name; // 'Joe'
 ```
